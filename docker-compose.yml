@@ -1,0 +1,9 @@
+version: "3.0.0" 
+services: # This is the name of the service
+  dapp: # This is the name of the container
+    image: # your image here
+    build: # your build context here
+      context: .
+      dockerfile: Dockerfile
+    ports: # This is the port that your app will be running on
+      - "8080:8080"
