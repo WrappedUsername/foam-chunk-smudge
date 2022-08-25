@@ -9,8 +9,6 @@ const Home: NextPage = () => {
         <title>minting dapp template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-     
     </div>
   )
 }
