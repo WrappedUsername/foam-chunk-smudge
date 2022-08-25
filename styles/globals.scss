@@ -16,7 +16,7 @@ body {
     height: 100vh;
     //background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);
     //background: #0f0e17;
-    background: hsl(0, 0%, 100%);
+    background: hsl(234, 29%, 7%);
     //background-image:
     position: fixed;
     left: 0;
@@ -30,15 +30,15 @@ body {
 }
 
 .gradient-bg-site {
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(39, 255, 169);
     background-image:
     radial-gradient(at 100% 37%, rgb(89, 255, 67) 0px, transparent 50%),
     radial-gradient(at 21% 31%, rgb(255, 0, 0) 0px, transparent 50%),
     radial-gradient(at 1% 2%, rgb(88, 5, 255) 0px, transparent 50%),
-    radial-gradient(at 91% 52%, rgba(0, 255, 221, 0.114) 0px, transparent 50%),
-    radial-gradient(at 41% 100%, rgba(0, 0, 97, 0.462) 0px, transparent 50%),
-    radial-gradient(at 80% 68%, rgba(0, 255, 55, 0.126) 0px, transparent 50%),
-    radial-gradient(at 63% 0%, rgba(0, 68, 255, 0.113) 0px, transparent 50%);
+    radial-gradient(at 91% 52%, rgb(255, 225, 0) 0px, transparent 50%),
+    radial-gradient(at 41% 100%, rgb(35, 35, 156) 0px, transparent 50%),
+    radial-gradient(at 80% 68%, rgb(0, 255, 55) 0px, transparent 50%),
+    radial-gradient(at 63% 0%, rgb(255, 98, 0) 0px, transparent 50%);
 }
 .gradient-bg-container {
     background-color:hsla(240,100%,60%,1);
