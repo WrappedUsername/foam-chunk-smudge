@@ -1,4 +1,9 @@
 {
+  "name": "minting-dapp-template",
+  "description": "minting dapp template",
+  "license": "MIT",
+  "auther": "WrappedUsername",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
