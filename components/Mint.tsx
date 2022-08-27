@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Mint = () => {
+const Mint = ({ accounts, setAccounts }: any) => {
   return (
     <div>Mint</div>
   )
