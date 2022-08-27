@@ -1,7 +1,7 @@
 // Update smart contract address and scanLink when deployed blockchain.
 export const address = ""; // TODO: add smart contract address here
 export const scanLink = ""; // TODO: add link to etherscan.io
-export const discordLink = ""; // Add your discord link here
+export const discordLink = ""; // TODO: add discord link
 export const githubLink = ""; // TODO: add github link
 
 // contract abi, update when deployed to blockchain.
