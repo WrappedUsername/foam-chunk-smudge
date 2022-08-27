@@ -1,10 +1,16 @@
-// Update smart contract address and scanLink when deployed blockchain.
-export const address = ""; // TODO: add smart contract address here
-export const scanLink = ""; // TODO: add link to etherscan.io
-export const discordLink = ""; // TODO: add discord link
-export const githubLink = ""; // TODO: add github link
+// TODO: add smart contract address here
+export const address = ""; 
+// TODO: add etherscan link here
+export const scanLink = ""; 
+// TODO: add discord link here
+export const discordLink = ""; 
+// TODO: add github link here
+export const githubLink = ""; 
+// TODO: add openSea link here
+export const openSeaLink = "";
 
-// contract abi, update when deployed to blockchain.
+// your smart contract abi goes here, replace examples with your own below
+// use what is needed for your project and remove the rest if you like
 export const abi = [
   // solidity json abi i.e. output of `solc --combined-json abi,bin,interface`
   /**{
@@ -14,6 +20,7 @@ export const abi = [
     stateMutability: "view",
     type: "function",
   },*/
-  // human-readable abi i.e. function name, inputs, outputs
+  // human-readable abi, add everything up to curly braces, 
+  // i.e. function name, inputs, outputs
   //"function safeMint() public payable",
 ];

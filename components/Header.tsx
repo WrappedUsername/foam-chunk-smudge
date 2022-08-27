@@ -18,13 +18,14 @@ const Header = () => {
      * typeof won't try to evaluate "window", it will only try to get its type, 
      * in our case in Node.js: "undefined"
      */
-
+    // get web3 provider
     if (typeof window !== 'undefined') {
 
         const { ethereum } = window;
         const provider = new ethers.providers.Web3Provider(ethereum);
         const signer = provider.getSigner();
 
+        // get contract instance
         //const contract = new ethers.Contract(address, abi, signer);
 
         //const tokenIdCounter = contract._tokenIdCounter();
