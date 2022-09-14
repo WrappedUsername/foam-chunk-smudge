@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   const [accounts, setAccounts] = useState([])
 
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="flex flex-col w-11/12 md:w-1/3 md:float-right mx-4">
       <Head>
         <title>Your project name here</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
