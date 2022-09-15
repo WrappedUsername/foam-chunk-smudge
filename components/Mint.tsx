@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../public/bg.png'
+import neon from '../public/neonGreenAccent.png'
 //import { ethers } from "ethers";
 //import { address, abi, scanLink } from "../context/constants";
 
@@ -42,7 +42,7 @@ const Mint = ({ accounts, setAccounts }: any) => {
   }*/
   return (
     <div className='flex flex-col h-fit w-full float-right bg-[#080808] rounded-lg justify-center items-center mb-4 '>
-    <img className="flex h-80 w-full rounded-lg my-2 py-2 mx-2 px-2" src={bg.src} alt="background" />
+    <img className="flex h-80 w-full rounded-lg my-2 py-2 mx-2 px-2" src={neon.src} alt="background" />
      <span className="text-green-300 text-2xl font-normal my-2 py-2 mx-2 px-2">
       Mint
      </span>

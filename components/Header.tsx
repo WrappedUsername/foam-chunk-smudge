@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import bg from '../public/bg.png'
+import neon from '../public/neonGreenAccent.png'
 
 declare global {
     interface Window {
@@ -23,6 +24,7 @@ const Header = ({ accounts, setAccounts }: any) => {
     return (
         
         <div className="relative flex h-screen flex-col justify-center mb-4 py-4">
+          <img className="fixed h-screen w-screen" src={neon.src} alt="logo" />
             <img className="fixed h-screen w-screen" src={bg.src} alt="logo" />
             <Link href="/">
                 <h1 className='md:fixed md:w-7/12 md:h-1/2 mx-4 text-center items-center font-bold gradient-bg-site bg-clip-text text-transparent text-6xl cursor-pointer'>
