@@ -1,15 +1,16 @@
 import React from 'react'
-import { ethers } from "ethers";
-import { address, abi, scanLink } from "../context/constants";
+import bg from '../public/bg.png'
+//import { ethers } from "ethers";
+//import { address, abi, scanLink } from "../context/constants";
 
-declare global {
+/**declare global {
   interface Window {
     ethereum: any;
   }
-}
+}*/
 
 const Mint = ({ accounts, setAccounts }: any) => {
-  const isConnected = Boolean(accounts[0]);
+  /**const isConnected = Boolean(accounts[0]);
 
   const connectAccount = async () => {
     if (window.ethereum) {
@@ -18,7 +19,7 @@ const Mint = ({ accounts, setAccounts }: any) => {
       });
       setAccounts(accounts);
     }
-  }
+  }*/ // This is the code from the Header component, which is not needed here
 
   /**
    * typeof won't try to evaluate "window", it will only try to get its type, 
@@ -40,19 +41,12 @@ const Mint = ({ accounts, setAccounts }: any) => {
       //console.log("minting:", count);
   }*/
   return (
-    <>
-      <div className='flex flex-col w-full text-center float-right mb-4'>
-        {isConnected ? <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block gradient-bg-container shadow-lg shadow-green-600 text-lg font-medium rounded-full text-white hover:text-gray-500 hover:shadow-[#232424] px-8 py-3 cursor-pointer">
-          {"Connected: " +
-            String(accounts).substring(0, 6) +
-            "..." +
-            String(accounts).substring(38)}</span>
-          : <span
-            className="transition duration-500 ease transform hover:-translate-y-1 inline-block gradient-bg-container shadow-lg shadow-green-600 text-lg font-medium rounded-full text-white hover:text-gray-500 hover:shadow-[#232424] px-8 py-3 cursor-pointer"
-            onClick={connectAccount}>connect</span>}
-      </div>
-      <div className='flex flex-col w-full h-96 bg-gray-300 rounded-lg mb-4'>Mint</div>
-    </>
+    <div className='flex flex-col h-fit w-full float-right bg-[#080808] rounded-lg justify-center items-center mb-4 '>
+    <img className="flex h-80 w-full rounded-lg my-2 py-2 mx-2 px-2" src={bg.src} alt="background" />
+     <span className="text-green-300 text-2xl font-normal my-2 py-2 mx-2 px-2">
+      Mint
+     </span>
+    </div>
   )
 }
 
