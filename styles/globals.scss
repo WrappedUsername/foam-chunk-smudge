@@ -68,3 +68,12 @@ body {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
   }
+
+  .text-gradient {
+    background-color: rgb(128, 255, 73);
+    background-image: radial-gradient(at 4% 36%, rgb(140, 254, 91) 0, transparent 90%),
+    radial-gradient(at 0% 50%, rgb(255, 125, 64) 0, transparent 90%), 
+    radial-gradient(at 100% 90%, rgb(255, 125, 64) 0, transparent 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

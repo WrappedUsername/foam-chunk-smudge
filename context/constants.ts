@@ -1,8 +1,8 @@
 // TODO: add smart contract address here
 // deployed to polygon main contract
-//export const address = "0xcB135bd9cb2761efddC46F29750c296695ADE9A1";
+export const address = "0xcB135bd9cb2761efddC46F29750c296695ADE9A1";
 // deployed test contract 
-export const address = "0x8aA6D5ED31c157A05b1B6e0189bc5f112084aF12"
+//export const address = "0xA0B5b5Bb0BCE7Fea33Bd299c57780aAFd95C6016"
 // TODO: add etherscan link here
 export const scanLink = "https://polygonscan.com/address/0xcb135bd9cb2761efddc46f29750c296695ade9a1#code"; 
 // TODO: add discord link here
@@ -25,5 +25,5 @@ export const abi = [
   },
   // human-readable abi, add everything up to curly braces, 
   // i.e. function name, inputs, outputs
-  "function safeMint() public payable",
+  "function safeMint(address to) public payable",
 ];
