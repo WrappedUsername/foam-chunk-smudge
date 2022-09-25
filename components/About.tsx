@@ -19,16 +19,16 @@ const About = () => {
           About this project
         </span>
         <p className='text-base font-normal break-words text-gradient my-2 py-2 mx-2 px-2'>
-          This project is a collection of 500 unique generative art pieces. 
+          This project is a collection of 500 unique generative art pieces.
           Each piece is a unique combination of 5 different layers. The layers are:
-          <ul>
-            <li>Background</li>
-            <li>Smudge Layer One</li>
-            <li>Smudge Layer Two</li>
-            <li>Accent Layer One</li>
-            <li>Accent Layer Two</li>
-          </ul>
         </p>
+        <div className='text-base font-normal break-words text-gradient my-2 py-2 mx-2 px-2'>
+        <li>Background</li>
+        <li>Smudge Layer One</li>
+        <li>Smudge Layer Two</li>
+        <li>Accent Layer One</li>
+        <li>Accent Layer Two</li>
+        </div>
       </motion.div>
     </div>
   )
