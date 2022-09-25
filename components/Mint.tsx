@@ -13,10 +13,10 @@ declare global {
 }
 
 const Mint = ({ accounts, setAccounts }: any) => {
-  const scrollRef = useRef(null)
-  const isConnected = Boolean(accounts[0]);
-  const [walletAddress, setWallet] = useState("");
-  const [status, setStatus] = useState("");
+  const scrollRef = useRef(null) // <--- this is the ref
+  const isConnected = Boolean(accounts[0]); 
+  const [walletAddress, setWallet] = useState(""); 
+  const [status, setStatus] = useState(""); 
 
   const connectAccount = async () => {
     if (typeof window !== 'undefined') {
