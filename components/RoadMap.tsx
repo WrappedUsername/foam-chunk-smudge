@@ -23,7 +23,7 @@ const RoadMap = () => {
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Q3 2022
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-normal text-gradient">
             Foam Chunk Smudge smart contract deployed to Polygon mainnet.
           </h3>
           <p
@@ -37,22 +37,23 @@ const RoadMap = () => {
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Q3 2022
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="text-lg font-normal text-gradient">
             Foam Chunk Smudge minting DApp deployed to Vercel. 
           </h3>
           <p className="text-base font-normal break-words text-gray-500 dark:text-gray-400">
-           VHG minting DApp will be deployed to Vercel.
+           The Foam Chunk Smudge minting DApp will be deployed to Vercel.
           </p>
         </li>
         <li className="mb-4 ml-4 text-red-600">
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Conclusion
+            Beyond Q4 2022
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Foam Chunk Smudge NFT Project Conclusion.
+          <h3 className="text-lg font-normal text-gradient">
+            Foam Chunk Smudge NFT Project Conclusion?
           </h3>
           <p className="text-base font-normal break-words text-gray-500 dark:text-gray-400">
-            The Project was never intended to prgress beyond anything more than a simple NFT art project.
+            The Project was never intended to progress beyond anything more than a simple NFT art project,
+            but maybe this project will inspire me and others to create new and amazing NFT projects.
           </p>
         </li>
        
