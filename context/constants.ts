@@ -6,7 +6,7 @@ export const address = "0xcB135bd9cb2761efddC46F29750c296695ADE9A1";
 // TODO: add etherscan link here
 export const scanLink = "https://polygonscan.com/address/0xcb135bd9cb2761efddc46f29750c296695ade9a1#code"; 
 // TODO: add discord link here
-export const discordLink = ""; 
+export const discordLink = "https://discord.gg/AEMuFYYsQX"; 
 // TODO: add github link here
 export const githubLink = "https://github.com/WrappedUsername/foam-chunk-smudge"; 
 // TODO: add openSea link here

@@ -1,10 +1,10 @@
 import React, { useRef } from 'react'
 import unnamed from '../public/unnamed.png'
 import logo192 from "../public/logo192.png"
-import { FaGithub } from "react-icons/fa";
+import { FaDiscord, FaGithub } from "react-icons/fa";
 import Link from 'next/link';
 import { motion } from 'framer-motion'
-import { githubLink } from '../context/constants';
+import { discordLink, githubLink } from '../context/constants';
 import { Animations } from '../variants/animations'
 
 const Footer = () => {
@@ -28,10 +28,10 @@ const Footer = () => {
           reserved.
         </p>
         <a
-          href={githubLink}
+          href={discordLink}
           className="text-white md:flex float-right text-2xl justify-center items-center mx-4 my-4 cursor-pointer"
         >
-          <FaGithub />
+          <FaDiscord />
         </a>
       </div>
     </motion.div>
