@@ -52,8 +52,10 @@ const RoadMap = () => {
             Foam Chunk Smudge NFT Project Conclusion?
           </h3>
           <p className="text-base font-normal break-words text-gray-500 dark:text-gray-400">
-            The Project was never intended to progress beyond anything more than a simple NFT art project,
-            but maybe this project will inspire me and others to create new and amazing NFT projects.
+            This NFT project was never intended to progress beyond anything more than a simple NFT art project,
+            but if a demand for more develops, I am open to explore more possibilties for the project.
+            I have already added much more functionality to the token than I originally intended, 
+            so I am already exploring more possibilties. 
           </p>
         </li>
        
