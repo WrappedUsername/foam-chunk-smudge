@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <title>Foam Chunk Smudge</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Foam Chunk Smudge NFT Minting DApp" />
-        <meta name="image" content="/screenShot.png" />
+        <meta property='image' content="/screenShot.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/*<Rocket />*/}

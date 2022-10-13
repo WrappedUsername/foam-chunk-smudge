@@ -93,7 +93,7 @@ const Header = ({ accounts, setAccounts }: any) => {
             String(accounts).substring(38)}</span>
           : <span
             className="transition duration-500 ease transform hover:-translate-y-1 inline-block gradient-bg-container shadow-lg shadow-[#ff8a73] text-lg font-medium rounded-full text-white hover:text-gray-500 hover:shadow-[#3a2a23] px-8 py-3 cursor-pointer"
-            onClick={connectAccount}>connect</span>}
+            onClick={connectAccount}>Connect</span>}
       </div>
     </div>
   )
