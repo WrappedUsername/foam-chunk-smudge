@@ -56,6 +56,8 @@ const RoadMap = () => {
             but if a demand for more develops, I am open to explore more possibilties for the project.
             I have already added much more functionality to the token than I originally intended, 
             so I am already exploring more possibilties. 
+
+            -- Update there will be much more to come check the Discord for the announcements! --
           </p>
         </li>
        
