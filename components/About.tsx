@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import gold from '../public/goldAccent.png'
+import gold from '../public/goldAccent.jpg'
 import { motion } from 'framer-motion'
 import { Animations } from '../variants/animations'
 import { discordLink } from '../context/constants'

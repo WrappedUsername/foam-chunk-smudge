@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react'
-import neon from '../public/neonGreenAccent.png'
+import neon from '../public/neonGreenAccent.jpg'
 import { ethers } from "ethers";
 import { address, abi, scanLink } from "../context/constants";
 import { motion } from 'framer-motion';

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
-import unnamed from '../public/unnamed.png'
-import logo192 from "../public/logo192.png"
+import unnamed from '../public/unnamed.jpg'
+import logo192 from "../public/logo192.jpg"
 import { FaDiscord, FaGithub } from "react-icons/fa";
 import Link from 'next/link';
 import { motion } from 'framer-motion'

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import bg from '../public/bg.png'
-import neon from '../public/neonGreenAccent.png'
+import bg from '../public/bg.jpg'
+import neon from '../public/neonGreenAccent.jpg'
 
 declare global {
   interface Window {

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import bg from '../public/bg.png'
+import bg from '../public/bg.jpg'
 import { motion } from 'framer-motion'
 import { Animations } from '../variants/animations'
 
@@ -57,7 +57,7 @@ const RoadMap = () => {
             I have already added much more functionality to the token than I originally intended, 
             so I am already exploring more possibilties. 
 
-            -- Update there will be much more to come check the Discord for the announcements! --
+            Update there will be much more to come check the Discord for the announcements!
           </p>
         </li>
        
