@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import bg from '../public/bg.jpg'
 import neon from '../public/neonGreenAccent.jpg'
-import calender from '../public/calender.png'
 
 declare global {
   interface Window {
@@ -14,8 +13,6 @@ const Header = ({ accounts, setAccounts }: any) => {
   const isConnected = Boolean(accounts[0]);
   const [walletAddress, setWallet] = useState("");
   const [status, setStatus] = useState("");
-
-  const NFTCalender = 'https://nftcalendar.io/'
 
   const connectAccount = async () => {
     if (typeof window !== 'undefined') {
@@ -98,20 +95,6 @@ const Header = ({ accounts, setAccounts }: any) => {
             className="transition duration-500 ease transform hover:-translate-y-1 inline-block gradient-bg-container shadow-lg shadow-[#ff8a73] text-lg font-medium rounded-full text-white hover:text-gray-500 hover:shadow-[#3a2a23] px-8 py-3 cursor-pointer"
             onClick={connectAccount}>Connect</span>}
       </div>
-
-       <div className='md:fixed flex flex-row md:w-7/12 h-fit justify-center items-center mt-80 px-4'>
-      <span className='flex flex-row justify-center items-center text-base font-italic text-left text-gradient my-2 py-2 mx-2 px-2'>
-          as seen on
-        </span>
-        <a href={NFTCalender}>
-        <img 
-        className="flex flex-row float-right justify-center items-center h-24 w-28 shadow-[#ff8a73] shadow-lg rounded-lg cursor-pointer" 
-        src={calender.src} 
-        alt="logo" 
-        />
-        </a>
-      </div>
-    
     </div>
   )
 }

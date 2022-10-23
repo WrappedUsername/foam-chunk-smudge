@@ -16,6 +16,7 @@ const Home: NextPage = () => {
     <div className="relative flex flex-col w-11/12 md:w-1/3 md:float-right mx-4">
       <Head>
         <title>Foam Chunk Smudge</title>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Foam Chunk Smudge NFT Minting DApp" />
         <meta property='image' content="/screenShot.png" />
